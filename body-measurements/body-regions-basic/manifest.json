@@ -1,0 +1,82 @@
+{
+  "dataId": "body-regions-basic",
+  "$id": "https://raw.githubusercontent.com/pontuskarlsson/library/main/body-measurements/body-regions-basic/manifest.json",
+  "name": "Basic Body Regions",
+  "description": "Body region hierarchy using common terminology for body measurements and avatar creation",
+  "currentVersion": "1.0.1",
+  "attribution": {
+    "maintainers": [
+      {
+        "name": "Pontus Karlsson",
+        "role": "lead maintainer",
+        "profile": "https://github.com/pontuskarlsson",
+        "email": "github@pontuskarlsson.com"
+      }
+    ],
+    "organization": {
+      "name": "Pontus Karlsson Library",
+      "profile": "https://github.com/pontuskarlsson/library"
+    }
+  },
+  "repository": "https://github.com/pontuskarlsson/library",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "releaseDate": "2025-08-12",
+      "dataUrl": "./versions/1.0.1/data.json",
+      "dependenciesUrl": null,
+      "ipfsCid": null,
+      "changes": [
+        "Updated version alignment with schema",
+        "Minor refinements"
+      ],
+      "breaking": false,
+      "notes": "Version update for consistency with body regions schema v1.0.1"
+    },
+    {
+      "version": "1.0.0",
+      "releaseDate": "2025-08-12",
+      "dataUrl": "./versions/1.0.0/data.json",
+      "dependenciesUrl": null,
+      "ipfsCid": null,
+      "changes": [
+        "Initial release",
+        "Four main regions: Head, Neck, Upper Body, Lower Body",
+        "Support for bilateral regions",
+        "Maximum depth of 4 levels",
+        "Includes common aliases for regions"
+      ],
+      "breaking": false,
+      "notes": "First version of basic body regions for avatar and measurement systems"
+    }
+  ],
+  "dependencies": [
+    {
+      "schema": "schema-body-regions",
+      "version": "1.0.1",
+      "url": "https://raw.githubusercontent.com/pontuskarlsson/schemas/main/schema-body-regions/manifest.json"
+    }
+  ],
+  "relatedData": [
+    {
+      "name": "Anatomical Body Regions",
+      "description": "Medical terminology version of body regions",
+      "url": "https://raw.githubusercontent.com/pontuskarlsson/library/main/body-measurements/body-regions-anatomical/manifest.json"
+    }
+  ],
+  "usedBy": [
+    {
+      "type": "landmarks",
+      "description": "Body landmarks reference these regions for location"
+    },
+    {
+      "type": "points-of-measure",
+      "description": "POMs reference these regions for measurement locations"
+    }
+  ],
+  "license": {
+    "name": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "tags": ["body-regions", "basic", "measurements", "avatars", "apparel", "consumer"]
+}

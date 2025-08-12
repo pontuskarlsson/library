@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "description": "Basic body regions using layman's terminology, organized in a simple hierarchy for easy understanding and practical use in apparel measurements",
+    "maxDepth": 3,
+    "purpose": "For use in customer-facing applications and general measurement documentation"
+  },
+  "Head": {
+    "description": "The uppermost part of the body, including all facial features and scalp",
+    "Face": {
+      "description": "The front portion of the head, from hairline to chin, including all facial features",
+      "Forehead": {
+        "description": "Area between the hairline and eyebrows"
+      },
+      "Eyes": {
+        "description": "Region around the eyes, including eyebrows and under-eye area"
+      },
+      "Nose": {
+        "description": "The nose and surrounding area"
+      },
+      "Cheeks": {
+        "description": "The sides of the face from eyes to jaw"
+      },
+      "Mouth": {
+        "description": "The mouth area including lips"
+      },
+      "Chin": {
+        "description": "The bottom portion of the face below the mouth"
+      }
+    },
+    "Scalp": {
+      "description": "The top and back of the head covered by hair"
+    }
+  },
+  "Neck": {
+    "description": "The region connecting the head to the shoulders and torso",
+    "Front": {
+      "description": "Anterior portion of the neck"
+    },
+    "Back": {
+      "description": "Posterior portion of the neck"
+    }
+  },
+  "Upper Body": {
+    "description": "The region from shoulders to waist, including arms",
+    "Shoulder": {
+      "description": "The region where arms connect to the torso",
+      "Front": {
+        "description": "Anterior portion of the shoulder"
+      },
+      "Back": {
+        "description": "Posterior portion of the shoulder"
+      }
+    },
+    "Chest": {
+      "description": "Upper torso region from neck to bottom of rib cage",
+      "Front": {
+        "description": "Anterior portion of the chest"
+      },
+      "Back": {
+        "description": "Posterior portion of the chest"
+      }
+    },
+    "Back": {
+      "description": "Posterior region of the torso",
+      "Upper Back": {
+        "description": "Region between shoulder blades"
+      },
+      "Lower Back": {
+        "description": "Region from bottom of shoulder blades to waist"
+      }
+    },
+    "Arm": {
+      "description": "The entire upper limb from shoulder to fingertips",
+      "Upper Arm": {
+        "description": "Section from shoulder to elbow"
+      },
+      "Elbow": {
+        "description": "The joint between upper arm and forearm"
+      },
+      "Forearm": {
+        "description": "Section from elbow to wrist"
+      },
+      "Hand": {
+        "description": "From wrist to fingertips",
+        "Wrist": {
+          "description": "The joint connecting forearm to hand"
+        },
+        "Palm": {
+          "description": "The inside surface of the hand"
+        },
+        "Fingers": {
+          "description": "The digits of the hand"
+        }
+      }
+    },
+    "Torso": {
+      "description": "The main body section from chest to hips",
+      "Bust": {
+        "description": "Chest circumference at fullest point"
+      },
+      "Underbust": {
+        "description": "Circumference immediately below bust"
+      },
+      "Waist": {
+        "description": "The narrowest part of the torso"
+      },
+      "High Hip": {
+        "description": "The region between waist and fullest part of hip"
+      }
+    }
+  },
+  "Lower Body": {
+    "description": "Everything below the waist",
+    "Hip": {
+      "description": "The fullest part of the lower body at hip level"
+    },
+    "Seat": {
+      "description": "The posterior protrusion of the buttocks"
+    },
+    "Leg": {
+      "description": "The entire lower limb from hip to toes",
+      "Thigh": {
+        "description": "Upper portion of leg from hip to knee"
+      },
+      "Knee": {
+        "description": "The joint between thigh and lower leg"
+      },
+      "Calf": {
+        "description": "Back portion of lower leg"
+      },
+      "Ankle": {
+        "description": "The joint connecting leg to foot"
+      }
+    },
+    "Foot": {
+      "description": "The terminal part of the leg",
+      "Heel": {
+        "description": "Back portion of the foot"
+      },
+      "Arch": {
+        "description": "Middle portion of the foot's bottom"
+      },
+      "Toes": {
+        "description": "The digits of the foot"
+      }
+    }
+  }
+}

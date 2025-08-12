@@ -1,0 +1,207 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pontuskarlsson/schemas/main/schema-body-regions/versions/1.0.1/schema.json",
+  "$id": "https://raw.githubusercontent.com/pontuskarlsson/library/main/body-measurements/body-regions-basic/versions/1.0.1/data.json",
+  "manifestUrl": "https://raw.githubusercontent.com/pontuskarlsson/library/main/body-measurements/body-regions-basic/manifest.json",
+  "title": "Basic Body Regions",
+  "description": "Body region hierarchy using common terminology for body measurements and avatar creation",
+  
+  "attribution": {
+    "maintainers": [
+      {
+        "name": "Pontus Karlsson",
+        "role": "lead maintainer",
+        "profile": "https://github.com/pontuskarlsson"
+      }
+    ],
+    "organization": {
+      "name": "Pontus Karlsson Library",
+      "profile": "https://github.com/pontuskarlsson/library"
+    }
+  },
+  
+  "version": {
+    "dataVersion": "1.0.1",
+    "lastUpdated": "2025-08-12",
+    "schemaVersion": "1.0.1",
+    "status": {
+      "state": "draft",
+      "details": "Updated version of basic body regions",
+      "since": "2025-08-12"
+    }
+  },
+  
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attributionText": "Created by Pontus Karlsson and licensed under CC BY-SA 4.0",
+    "attributionUrl": "https://github.com/pontuskarlsson/library"
+  },
+  
+  "metadata": {
+    "id": "basic",
+    "name": "Basic Body Regions",
+    "description": "Body region hierarchy using common terminology for body measurements and avatar creation",
+    "purpose": "Standardized body regions for landmarks, points of measure, and digital avatar systems",
+    "audience": ["consumer", "retail", "manufacturing"],
+    "maxDepth": 4,
+    "supportsBilateral": true,
+    "supportsMultiplePaths": true
+  },
+  "regions": {
+    "Head": {
+      "description": "The uppermost part of the body including all facial features and scalp",
+      "bilateral": false,
+      "Face": {
+        "description": "The front portion of the head from hairline to chin",
+        "bilateral": false,
+        "Forehead": {
+          "description": "Area between the hairline and eyebrows",
+          "bilateral": false
+        },
+        "Eyes": {
+          "description": "Region around the eyes including eyebrows and under-eye area",
+          "bilateral": true
+        },
+        "Nose": {
+          "description": "The nose and surrounding area",
+          "bilateral": false
+        },
+        "Cheeks": {
+          "description": "The sides of the face from eyes to jaw",
+          "bilateral": true
+        },
+        "Mouth": {
+          "description": "The mouth area including lips",
+          "bilateral": false
+        },
+        "Chin": {
+          "description": "The bottom portion of the face below the mouth",
+          "bilateral": false
+        }
+      },
+      "Scalp": {
+        "description": "The top and back of the head typically covered by hair",
+        "bilateral": false
+      },
+      "Ear": {
+        "description": "The external ear structure on the side of the head",
+        "bilateral": true
+      }
+    },
+    "Neck": {
+      "description": "The region connecting the head to the shoulders and trunk",
+      "bilateral": false,
+      "Front": {
+        "description": "Anterior portion of the neck",
+        "bilateral": false
+      },
+      "Back": {
+        "description": "Posterior portion of the neck",
+        "bilateral": false
+      },
+      "Side": {
+        "description": "Lateral portion of the neck",
+        "bilateral": true
+      }
+    },
+          "Upper Body": {
+      "description": "The trunk and arm from shoulder to waist",
+      "bilateral": false,
+      "Chest": {
+        "description": "The front upper trunk from neck to bottom of ribcage",
+        "bilateral": false
+      },
+      "Back": {
+        "description": "The posterior trunk from shoulders to waist",
+        "bilateral": false,
+        "Upper Back": {
+          "description": "Region between shoulder blades",
+          "bilateral": false
+        },
+        "Lower Back": {
+          "description": "Region from mid-back to waist",
+          "bilateral": false
+        }
+      },
+      "Abdomen": {
+        "description": "The front trunk below the chest and above the hips",
+        "bilateral": false
+      },
+      "Waist": {
+        "description": "The narrowest part of the trunk",
+        "bilateral": false,
+        "aliases": ["Waistline", "Natural Waist"]
+      },
+      "Arm": {
+        "description": "The upper limb from shoulder to fingertips",
+        "bilateral": true,
+        "Shoulder": {
+          "description": "Where the arm connects to the trunk",
+          "bilateral": true
+        },
+        "Upper Arm": {
+          "description": "Section from shoulder to elbow",
+          "bilateral": true,
+          "aliases": ["Bicep Area"]
+        },
+        "Elbow": {
+          "description": "The joint between upper arm and forearm",
+          "bilateral": true
+        },
+        "Forearm": {
+          "description": "Section from elbow to wrist",
+          "bilateral": true
+        },
+        "Wrist": {
+          "description": "The joint connecting forearm to hand",
+          "bilateral": true
+        },
+        "Hand": {
+          "description": "From wrist to fingertips",
+          "bilateral": true
+        }
+      }
+    },
+    "Lower Body": {
+      "description": "Everything below the waist",
+      "bilateral": false,
+      "Hip": {
+        "description": "The pelvic region at widest point",
+        "bilateral": false
+      },
+      "Seat": {
+        "description": "The buttocks region",
+        "bilateral": false,
+        "aliases": ["Buttocks", "Glutes", "Bottom"]
+      },
+      "Groin": {
+        "description": "The junction area where the legs meet the trunk",
+        "bilateral": false
+      },
+      "Leg": {
+        "description": "The lower limb from hip to toes",
+        "bilateral": true,
+        "Thigh": {
+          "description": "Upper portion of leg from hip to knee",
+          "bilateral": true
+        },
+        "Knee": {
+          "description": "The joint between thigh and lower leg",
+          "bilateral": true
+        },
+        "Lower Leg": {
+          "description": "Section from knee to ankle",
+          "bilateral": true
+        },
+        "Ankle": {
+          "description": "The joint connecting leg to foot",
+          "bilateral": true
+        },
+        "Foot": {
+          "description": "The terminal part of the leg",
+          "bilateral": true
+        }
+      }
+    }
+  }
+}

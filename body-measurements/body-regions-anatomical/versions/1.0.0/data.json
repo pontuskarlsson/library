@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "description": "Anatomically correct body region classification using medical terminology",
+    "purpose": "For use in technical documentation and integration with medical/scientific systems"
+  },
+  "Axial": {
+    "description": "The central core of the body, including head, neck, and trunk",
+    "Head": {
+      "description": "The superior portion of the body containing the brain and primary sensory organs",
+      "Cranium": {
+        "description": "The skeletal structure containing the brain",
+        "Frontal": {
+          "description": "Anterior portion of the skull"
+        },
+        "Parietal": {
+          "description": "Superior and lateral portions of the skull"
+        },
+        "Temporal": {
+          "description": "Lateral portions of the skull below the parietal bone"
+        },
+        "Occipital": {
+          "description": "Posterior portion of the skull"
+        }
+      },
+      "Face": {
+        "description": "The anterior portion of the head",
+        "Frontal": {
+          "description": "The front-facing portions",
+          "Forehead": {
+            "description": "Superior portion of the face above the eyes"
+          },
+          "Orbital": {
+            "description": "Region surrounding the eyes"
+          },
+          "Nasal": {
+            "description": "Region of and surrounding the nose"
+          },
+          "Oral": {
+            "description": "Region of and surrounding the mouth"
+          },
+          "Mental": {
+            "description": "Region of the chin"
+          }
+        },
+        "Lateral": {
+          "description": "The side portions of the face",
+          "Temporal": {
+            "description": "Region of the temples"
+          },
+          "Zygomatic": {
+            "description": "Cheekbone region"
+          },
+          "Buccal": {
+            "description": "Cheek region"
+          },
+          "Mandibular": {
+            "description": "Jaw region"
+          }
+        }
+      }
+    }
+  },
+  "Appendicular": {
+    "description": "The appendages of the body - arms and legs",
+    "Upper Limbs": {
+      "description": "The arms, including shoulder girdle",
+      "Shoulder": {
+        "description": "The junction between trunk and upper limb",
+        "Deltoid": {
+          "description": "Lateral shoulder region"
+        },
+        "Axilla": {
+          "description": "Armpit region"
+        }
+      },
+      "Arm": {
+        "description": "From shoulder to elbow",
+        "Upper Arm": {
+          "description": "Between shoulder and elbow",
+          "Anterior": {
+            "Biceps": {
+              "description": "Front of upper arm"
+            }
+          },
+          "Posterior": {
+            "Triceps": {
+              "description": "Back of upper arm"
+            }
+          }
+        },
+        "Elbow": {
+          "description": "Junction between upper arm and forearm",
+          "Anterior": {
+            "Cubital Fossa": {
+              "description": "Front of elbow"
+            }
+          },
+          "Posterior": {
+            "Olecranon": {
+              "description": "Back of elbow"
+            }
+          }
+        }
+      }
+    },
+    "Lower Limbs": {
+      "description": "The legs, including pelvic girdle",
+      "Thigh": {
+        "description": "Between hip and knee",
+        "Anterior": {
+          "Quadriceps": {
+            "description": "Front of thigh"
+          }
+        },
+        "Posterior": {
+          "Hamstring": {
+            "description": "Back of thigh"
+          }
+        },
+        "Medial": {
+          "Adductor": {
+            "description": "Inner thigh"
+          }
+        },
+        "Lateral": {
+          "Iliotibial": {
+            "description": "Outer thigh"
+          }
+        }
+      }
+    }
+  }
+}
